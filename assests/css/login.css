@@ -1,0 +1,66 @@
+html,
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width: 100%;
+    background-color:antiquewhite;
+
+}
+
+a{
+    text-decoration: none;
+    color:dimgray;
+}
+.loginAndRegBox{
+    height:310px;
+    width:400px;
+    background-color: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.title-box{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.reg-box{
+    display: none;
+}
+
+.formInput{
+    padding:0 30px;
+}
+
+.icon-position{
+    position: relative;
+}
+
+.bi-person-fill{
+    position:absolute;
+    left:5px;
+    top:10px;
+}
+
+.bi-file-lock2{
+    position: absolute;
+    left:5px;
+    top:10px;
+}
+
+.form-control{
+    padding-left:25px;
+}
+
+.link_reg{
+    display: flex;
+    justify-content: flex-end;
+}
+
